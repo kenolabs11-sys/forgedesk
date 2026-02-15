@@ -69,3 +69,10 @@ Additional languages may be supported in future releases.
 
 ForgeDesk is under active development.
 Preview builds may contain bugs.
+
+
+
+
+License: All rights reserved.
+Commercial use is not permitted.
+
