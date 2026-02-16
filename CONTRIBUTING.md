@@ -1,54 +1,83 @@
-📘 Community & Contribution Guidelines
-🐞 Bug Reports
+# Contributing to ForgeDesk
 
-If you encounter a bug:
+Thanks for taking the time to contribute! ForgeDesk is a deterministic build orchestrator, and we care a lot about reproducibility, safety, and clear bug reports.
 
-Use Issues
+## Where to post what (Important)
 
-Include:
+### ✅ Bugs / Crashes / Build failures
+Open an **Issue** using:
+- **Bug report** template
 
-Version number
+### ✅ Feature requests / Improvements
+Open an **Issue** using:
+- **Feature request** template
 
-Steps to reproduce
+### ✅ Questions / Usage help
+Use **Discussions → Q&A**
 
-Expected behavior
+### ✅ General ideas / workflow suggestions
+Use **Discussions → Ideas**
 
-Actual behavior
+### ✅ Feedback on UX / behavior
+Use **Discussions → Feedback**
 
-Screenshots (if applicable)
+---
 
-✨ Feature Requests
+## Before you open an Issue
 
-For major features or technical enhancements:
+Please check:
+- Existing Issues (duplicates)
+- README (basic usage)
+- Discussions (if it's a question)
 
-Open a Feature Issue
+---
 
-Clearly describe:
+## Bug Reports (What we need)
 
-Problem
+A good bug report includes:
 
-Proposed solution
+1. **ForgeDesk version** (e.g. `0.1.0-preview`)
+2. **Operating System** (Windows 10/11, build number if possible)
+3. **Pipeline** (Python / .NET / Unknown)
+4. **Expected behavior**
+5. **Actual behavior**
+6. **Steps to reproduce**
+7. **Diagnostics ZIP file name** (if available)
 
-Use case
+### Diagnostics ZIP Safety
+- Please **do not include secrets** (API keys, passwords, private tokens).
+- If a log contains sensitive paths or usernames, you may redact them.
 
-💡 Ideas & Suggestions
+---
 
-For early-stage ideas or general improvements:
+## Feature Requests (What we need)
 
-👉 Use Discussions → Ideas
+- What problem are you solving?
+- What is your desired workflow?
+- Any alternatives you tried?
+- Optional: screenshots or mockups
 
-These are not guaranteed roadmap items but help shape future updates.
+---
 
-❓ Questions & Help
+## Pull Requests (If/When PRs are enabled)
 
-Need help?
+> At the moment ForgeDesk may accept PRs selectively. If PRs are not accepted yet, please open an Issue/Discussion first.
 
-👉 Use Discussions → Q&A
+### Quality rules
+- Keep changes focused (one feature/fix per PR)
+- Add tests if relevant
+- Avoid breaking deterministic behavior
+- Prefer manifest-first logic; avoid silent installs/updaters
 
-Community members and maintainers can respond.
+### Commit messages
+Use short, clear messages:
+- `fix: ...`
+- `feat: ...`
+- `docs: ...`
+- `refactor: ...`
 
-📢 Announcements
+---
 
-Official updates and release notes will be posted in:
+## License
 
-👉 Discussions → Announcements
+By contributing, you agree that your contributions will be licensed under the repository license.
