@@ -98,5 +98,4 @@ Beta builds may contain bugs and incomplete features.
 
 ## 📄 License
 
-All rights reserved.
-Commercial use is not permitted.
+See LICENSE file for details.
