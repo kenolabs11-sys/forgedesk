@@ -1,7 +1,7 @@
 {
   "product": "ForgeDesk",
   "latest": {
-    "version": "0.1.0",
+    "version": "1.1.0",
     "channel": "preview",
     "releaseDate": "2026-02-14",
     "notes": "Initial public preview. Downloads will be published soon.",
